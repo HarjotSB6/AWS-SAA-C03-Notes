@@ -100,7 +100,7 @@
 - **Security Control**: Use **Service Control Policies (SCP)** to restrict IAM roles & users at OU/account level.
 - **SCPs don’t apply to the management account** & require explicit allow from the root.
 
-![image.png](image%207.png)
+![image.png](images/image%207.png)
 
 # Compute Services
 
@@ -264,7 +264,7 @@ Launch Docker containers
 - Task definitions specify port, image, storage details
 - ECS Service spins up new tasks
     
-    ![image.png](image%208.png)
+    ![image.png](images/image%208.png)
     
 
 **ECS Service Auto Scaling :**
@@ -305,7 +305,7 @@ Launch Docker containers
 > Kubernetes is cloud-agnostic (can be used in any cloud including Azure, GCP, etc.)
 > 
 
-![image.png](image%209.png)
+![image.png](images/image%209.png)
 
 EKS Node Types:
 
@@ -387,7 +387,7 @@ EKS Data Volumes:
     - Access to underlying DB and OS
     - Can SSH, install patches, configure settings
 
-![image.png](image%2010.png)
+![image.png](images/image%2010.png)
 
 ## Amazon Aurora
 
@@ -401,7 +401,7 @@ EKS Data Volumes:
 - **Aurora Machine Learning:** perform ML using SageMaker & Comprehend on Aurora
 - **Aurora Database Cloning:** new cluster from existing one, faster than restoring a snapshot
 
-![image.png](image%2011.png)
+![image.png](images/image%2011.png)
 
 ## ElastiCache
 
@@ -413,7 +413,7 @@ EKS Data Volumes:
     - Write Through
     - Session Store
 
-![image.png](image%2012.png)
+![image.png](images/image%2012.png)
 
 ## Amazon DynamoDB
 
@@ -474,7 +474,7 @@ EKS Data Volumes:
 - High # of consumers
 - Process using AWS Lambda, Kinesis Data Analytics, Kinesis Data Firehose, AWS Glue Streaming ETL...
 
-![image.png](image%2013.png)
+![image.png](images/image%2013.png)
 
 ## **DocumentDB**
 
@@ -574,19 +574,19 @@ analytics, …
     - Transfer Acceleration (via Edge Locations)
     - Byte Range Fetches (partial retrieval)
 
-![image.png](image%2014.png)
+![image.png](images/image%2014.png)
 
-![image.png](image%2015.png)
+![image.png](images/image%2015.png)
 
-![image.png](image%2016.png)
+![image.png](images/image%2016.png)
 
-![image.png](image%2017.png)
+![image.png](images/image%2017.png)
 
 All Storage 
 
-![image.png](image%2018.png)
+![image.png](images/image%2018.png)
 
-![image.png](image%2019.png)
+![image.png](images/image%2019.png)
 
 ## API Gateway
 
@@ -608,19 +608,19 @@ HTTP Endpoints, API and AWS API
 
 ## Virtual Private Cloud (VPC)
 
-![image.png](image%2020.png)
+![image.png](images/image%2020.png)
 
 - Private network in AWS
 - Subnet configuration
 - Internet and NAT gateways
 
-![image.png](image%2021.png)
+![image.png](images/image%2021.png)
 
 - **Security**:
     - Security Groups (stateful, allow rules only)
     - Network ACLs (stateless, allow/deny rules)
     
-    ![image.png](image%2022.png)
+    ![image.png](images/image%2022.png)
     
 
 ## **VPC Endpoints (AWS PrivateLink)**
@@ -843,7 +843,7 @@ Lambda@Edge allows you to use Lambda functions to modify CloudFront requests and
         
         
 
-![image.png](image%2023.png)
+![image.png](images/image%2023.png)
 
 ## CloudTrail
 
@@ -940,7 +940,7 @@ CloudTrail Events Retention
 - FIFO Queue
 - JSON Message filtering
 
-![image.png](image%2024.png)
+![image.png](images/image%2024.png)
 
 ## Amazon Kinesis
 
@@ -954,7 +954,7 @@ Types
 3. **Kinesis Data Analytics**: analyze data streams with SQL or Apache Flink
 4. **Kinesis Video Streams**: capture, process, and store video streams
 
-![image.png](image%2025.png)
+![image.png](images/image%2025.png)
 
 **Kinesis Data Streams – Capacity Modes**
 
@@ -974,26 +974,26 @@ Types
 
 **Kinesis Data Firehose**
 
-![image.png](image%2026.png)
+![image.png](images/image%2026.png)
 
 - Near Real Time
 - Pay for data going through Firehose
 
-![image.png](image%2027.png)
+![image.png](images/image%2027.png)
 
-![image.png](image%2028.png)
+![image.png](images/image%2028.png)
 
 # Disaster Recovery & Migration
 
 ### **Disaster Recovery Strategies**
 
-![rto-vs-rpo-what-is-the-difference-no-white-spaces.png](rto-vs-rpo-what-is-the-difference-no-white-spaces.png)
+![rto-vs-rpo-what-is-the-difference-no-white-spaces.png](images/rto-vs-rpo-what-is-the-difference-no-white-spaces.png)
 
 RTO - Recovery Time Objective
 
 RPO - Recovery Point Objective
 
-![image.png](70adb7d2-22d6-479a-a9ad-c7fcb1ba5c00.png)
+![image.png](images/70adb7d2-22d6-479a-a9ad-c7fcb1ba5c00.png)
 
 - **Backup and Restore**:
     - Storage Gateway, Snowball, snapshots, AMIs
@@ -1381,7 +1381,7 @@ WAF – Fixed IP with Load Balancer
 - **AWS Shield Advanced**: Adds advanced DDoS protection, 24/7 support, and attack cost mitigation.
 - **Best Practice**: Use all three together for comprehensive security.
 
-![image.png](image%2029.png)
+![image.png](images/image%2029.png)
 
 ### **Amazon GuardDuty**
 
