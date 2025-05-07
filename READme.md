@@ -1,6 +1,7 @@
 # AWS SAA-C03 Notes
 
 *Harjot Singh*
+Updated : https://dune-cilantro-f47.notion.site/AWS-SAA-C03-Notes-1a42e0256a3680e8965ef9fe25b26947
 
 # Access Management
 
